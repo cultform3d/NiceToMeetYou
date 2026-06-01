@@ -495,10 +495,10 @@ export default function CULTFORMPresentation() {
                   <p className="text-muted text-[10px] tracking-[0.2em] mb-4">СЕБЕСТОИМОСТЬ — РЕАЛИЗАЦИЯ</p>
                   <div className="space-y-2">
                     <p className="text-base md:text-lg">
-                      себестоимость одного набора из 3 привидений - <span className="text-neon-purple font-semibold">1.9$</span>
+                      себестоимость одного набора из 3 привидений - <span className="text-neon-purple font-semibold">2.9$</span>
                     </p>
                     <p className="text-base md:text-lg">
-                      цена продажи набора - <span className="text-neon-purple font-semibold">3.5$</span>
+                      цена продажи набора - <span className="text-neon-purple font-semibold">5.1$</span>
                     </p>
                   </div>
                 </div>
