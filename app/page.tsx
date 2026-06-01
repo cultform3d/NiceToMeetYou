@@ -173,11 +173,8 @@ export default function CULTFORMPresentation() {
           }`}
         >
           <div className="relative inline-block">
-            <span className="absolute -left-8 md:-left-12 top-0 text-[10px] tracking-[0.2em] text-muted writing-vertical hidden lg:block">
-              01
-            </span>
             <h1 className="text-[15vw] md:text-[12vw] lg:text-[11vw] font-semibold tracking-[-0.03em] leading-none mb-8 md:mb-12">
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-foreground to-foreground/70">CULTFORM</span>
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-foreground to-foreground/70" style="letter-spacing: .97rem;font-size: 10vw;">CULTFORM</span>
             </h1>
           </div>
           <div className="max-w-3xl lg:max-w-4xl flex flex-col items-center">
@@ -603,7 +600,7 @@ export default function CULTFORMPresentation() {
             }`}
           >
             <h2 className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-[-0.02em] leading-none mb-12 lg:mb-20">
-              Калькулятор вклада:
+              Калькулятор дохода:
             </h2>
 
             <div className="border border-foreground/10 p-8 md:p-12 lg:p-16">
@@ -707,7 +704,7 @@ export default function CULTFORMPresentation() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="p-6 md:p-8 bg-surface border-l-2 border-neon-purple rounded-2xl">
                     <p className="text-muted text-[10px] tracking-[0.2em] mb-4">{reinvest ? 'СРЕДНИЙ ДОХОД В МЕСЯЦ' : 'ДОХОД В МЕСЯЦ'}</p>
-                    <p className="text-4xl md:text-5xl lg:text-6xl font-semibold tabular-nums text-neon-purple drop-shadow-[0_0_10px_rgba(115,109,245,0.3)]">
+                    <p className="text-4xl md:text-5xl lg:text-6xl font-semibold tabular-nums text-neon-purple drop-shadow-[0_0_10px_rgba(115,109,245,0.3)]" style="font-size: 3rem;">
                       ${monthlyIncome.toFixed(0)}
                     </p>
                   </div>
@@ -723,7 +720,7 @@ export default function CULTFORMPresentation() {
                   <p className="text-muted text-lg md:text-xl lg:text-2xl mb-4">
                     Итого на руках через {term} {term === 1 ? 'год' : term > 4 ? 'лет' : 'года'} (с учетом возврата вклада):
                   </p>
-                  <p className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tabular-nums text-neon-purple drop-shadow-[0_0_15px_rgba(115,109,245,0.4)]">
+                  <p className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tabular-nums text-neon-green drop-shadow-[0_0_15px_rgba(115,109,245,0.4)]">
                     ${totalReturn.toLocaleString(undefined, { maximumFractionDigits: 0 })}
                   </p>
                 </div>
@@ -747,7 +744,7 @@ export default function CULTFORMPresentation() {
             }`}
           >
             <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold tracking-[-0.02em] leading-none mb-16 lg:mb-24 text-center">
-              Миссия CULTFORM:
+              Миссия:
             </h2>
             
             <div className="mb-20 lg:mb-28 flex justify-center">
