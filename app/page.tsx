@@ -704,7 +704,7 @@ export default function CULTFORMPresentation() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="p-6 md:p-8 bg-surface border-l-2 border-neon-purple rounded-2xl">
                     <p className="text-muted text-[10px] tracking-[0.2em] mb-4">{reinvest ? 'СРЕДНИЙ ДОХОД В МЕСЯЦ' : 'ДОХОД В МЕСЯЦ'}</p>
-                    <p className="text-4xl md:text-5xl lg:text-6xl font-semibold tabular-nums text-neon-purple drop-shadow-[0_0_10px_rgba(115,109,245,0.3)]" style={{ fontSize: 3rem }}>
+                    <p className="text-4xl md:text-5xl lg:text-6xl font-semibold tabular-nums text-neon-purple drop-shadow-[0_0_10px_rgba(115,109,245,0.3)]" style={{ fontSize: "3rem" }}>
                       ${monthlyIncome.toFixed(0)}
                     </p>
                   </div>
