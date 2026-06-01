@@ -516,6 +516,9 @@ export default function CULTFORMPresentation() {
                 </div>
               </div>
             </div>
+            <div className="text-lg md:text-xl lg:text-2xl leading-relaxed mb-8">
+              Выше представлены образцы для понимания направленности ассортимента, который будет постоянно расширяться и меняться в зависимости от конъюнктуры рынка.
+            </div>
           </div>
         </div>
       </section>
