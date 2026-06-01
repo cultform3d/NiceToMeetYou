@@ -335,7 +335,7 @@ export default function CULTFORMPresentation() {
                   bgClass: "bg-accent/10"
                 },
                 {
-                  text: "Выплата арендной платы происходит каждый месяц, и осуществляется в зависимости от даты передачи принтера в управление - 1-го или 15-го числа",
+                  text: "Выплата арендной платы происходит каждый месяц с 1-го по 10-е число",
                   Icon: Wallet,
                   hoverClass: "hover:border-accent/50 hover:bg-accent/5",
                   textClass: "text-accent",
