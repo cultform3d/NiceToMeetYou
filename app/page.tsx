@@ -342,7 +342,7 @@ export default function CULTFORMPresentation() {
                   bgClass: "bg-accent/10"
                 },
                 {
-                  text: "Расчет арендной платы осуществляется ежемесячно и составляет 50% от прибыли, вырученной от продажи продукции с одного принтера",
+                  text: "Расчет арендной платы осуществляется ежемесячно и составляет 33% от прибыли, вырученной от продажи продукции с одного принтера",
                   Icon: PieChart,
                   hoverClass: "hover:border-accent/50 hover:bg-accent/5",
                   textClass: "text-accent",
